@@ -4,22 +4,23 @@ specifiers:
   '@babel/core': ^7.18.2
   '@chakra-ui/react': ^2.2.1
   '@chakra-ui/skip-nav': ^2.0.2
+  '@chakra-ui/system': ^2.1.3
   '@chakra-ui/theme-tools': ^2.0.2
   '@emotion/react': ^11
   '@emotion/styled': ^11
   '@fontsource/inter': ^4.5.11
-  '@saas-ui/react': 1.0.2
+  '@saas-ui/react': 1.2.1
   '@svgr/webpack': ^6.2.1
   '@types/node': 17.0.38
   '@types/react': 18.0.10
   '@types/react-dom': 18.0.5
-  contentlayer: ^0.2.5
+  contentlayer: ^0.2.6
   date-fns: ^2.28.0
   eslint: 8.16.0
   eslint-config-next: 12.1.6
   framer-motion: ^6
   next: 12.1.6
-  next-contentlayer: ^0.2.5
+  next-contentlayer: ^0.2.6
   next-seo: ^5.4.0
   react: 18.1.0
   react-dom: 18.1.0
@@ -29,18 +30,19 @@ specifiers:
 
 dependencies:
   '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
-  '@chakra-ui/skip-nav': 2.0.2_react@18.1.0
-  '@chakra-ui/theme-tools': 2.0.2
+  '@chakra-ui/skip-nav': 2.0.2_fyh2home3ovcllsswrzj6w5lo4
+  '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
+  '@chakra-ui/theme-tools': 2.0.2_@chakra-ui+system@2.1.3
   '@emotion/react': 11.9.0_t32v4ktcynrgeobeattnfg3v6m
   '@emotion/styled': 11.8.1_iay6a7nbb2nsf7nl3gr24qbc2a
   '@fontsource/inter': 4.5.11
-  '@saas-ui/react': 1.0.2_z24omdafoq6uotecxn4xqughgy
+  '@saas-ui/react': 1.2.1_z24omdafoq6uotecxn4xqughgy
   '@svgr/webpack': 6.2.1
-  contentlayer: 0.2.5_date-fns@2.28.0
+  contentlayer: 0.2.6
   date-fns: 2.28.0
   framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
   next: 12.1.6_6j5eyi3us3liopewjenwniphpy
-  next-contentlayer: 0.2.5_2mgcgz5qhsdxw4fgpqzqeafmkq
+  next-contentlayer: 0.2.6_2mgcgz5qhsdxw4fgpqzqeafmkq
   next-seo: 5.4.0_2mgcgz5qhsdxw4fgpqzqeafmkq
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -1589,19 +1591,6 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@chakra-ui/layout/2.0.3_fyh2home3ovcllsswrzj6w5lo4:
-    resolution: {integrity: sha512-qjSLAkj9rAgE+T3afi5X+08z2xSwDbiAWlLkltcCdExrv8jD6zaC4fhuyZtEOgXlrgveisOsM17DarTalWMLSg==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0-next.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/icon': 3.0.2_fyh2home3ovcllsswrzj6w5lo4
-      '@chakra-ui/react-utils': 2.0.1_react@18.1.0
-      '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
-      '@chakra-ui/utils': 2.0.2
-      react: 18.1.0
-    dev: false
-
   /@chakra-ui/live-region/2.0.2_react@18.1.0:
     resolution: {integrity: sha512-aRJRaJInqNkFRRIjW57SPNhj7ngxh0xkdQZeOohvOcd7VbjvHNgXO1glKjIXRzSRHyteCdGUzb/jo68NizE3bQ==}
     peerDependencies:
@@ -1898,12 +1887,13 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@chakra-ui/skip-nav/2.0.2_react@18.1.0:
+  /@chakra-ui/skip-nav/2.0.2_fyh2home3ovcllsswrzj6w5lo4:
     resolution: {integrity: sha512-MbcRNcs0CYD4EUb+0xZkW8mpjGA7/z3m520LhpjdMUz2own5v9PymeaUaBp6u3uoK36X+vMp1KYlXhy71PSePg==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0-next.0'
       react: '>=18'
     dependencies:
+      '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@chakra-ui/utils': 2.0.2
       react: 18.1.0
     dev: false
@@ -2034,15 +2024,6 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@chakra-ui/theme-tools/2.0.2:
-    resolution: {integrity: sha512-E01ZJZB4XVqkvn2hOXKQ/uVkvaPLQN1SyxAYXjFZGyZ1ppBLl362EWfY9IgWNzDITgq9MCJyQFfm2mXwQDUNzA==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0-next.0'
-    dependencies:
-      '@chakra-ui/utils': 2.0.2
-      '@ctrl/tinycolor': 3.4.1
-    dev: false
-
   /@chakra-ui/theme-tools/2.0.2_@chakra-ui+system@2.1.3:
     resolution: {integrity: sha512-E01ZJZB4XVqkvn2hOXKQ/uVkvaPLQN1SyxAYXjFZGyZ1ppBLl362EWfY9IgWNzDITgq9MCJyQFfm2mXwQDUNzA==}
     peerDependencies:
@@ -2139,11 +2120,11 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@contentlayer/cli/0.2.5:
-    resolution: {integrity: sha512-HMFb8MyUPM4shEI7Xy06arvgxxA4lRrFS56D9sfyiwTj5dv1hz6GjGDQ0gknq4A6ZdUavUbFYgDc2Uy6oIXWQA==}
+  /@contentlayer/cli/0.2.6:
+    resolution: {integrity: sha512-+vml9srC+Y3pwi6vqDcqYSX7A2it6vwV5WZVe3hQfjx/TAGgA5sYwPHjbjdMiMWyqaI0keA3AQIkO03yAH97xw==}
     dependencies:
-      '@contentlayer/core': 0.2.5
-      '@contentlayer/utils': 0.2.5
+      '@contentlayer/core': 0.2.6
+      '@contentlayer/utils': 0.2.6
       clipanion: 3.2.0-rc.11
       typanion: 3.9.0
     transitivePeerDependencies:
@@ -2152,18 +2133,18 @@ packages:
       - supports-color
     dev: false
 
-  /@contentlayer/client/0.2.5:
-    resolution: {integrity: sha512-QgZ5qxg7wBsaqwJBMXn/p7fDX7vw2yllHOwyZeZ2UiLSJrpsXIPEI2L2hcK4SRCrvGideqsvGocD5KEX6jv+MA==}
+  /@contentlayer/client/0.2.6:
+    resolution: {integrity: sha512-ONzIi18+gHzXqins8s+RpEa6AIBnBPXK5jb//q8v97ZF5DeVwjwj/Ci18/qNzfjBamhVb5ZdxaWjXhY/YNWPVQ==}
     dependencies:
-      '@contentlayer/core': 0.2.5
+      '@contentlayer/core': 0.2.6
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
       - markdown-wasm
       - supports-color
     dev: false
 
-  /@contentlayer/core/0.2.5:
-    resolution: {integrity: sha512-XuiOrfW+hphk4f7+yU5BfZhGIjMz8pQ1rg2JchsgENTz22YL4Fog6F9PQpxoVA92uBlU0lcKnwiusTfqSQlvHA==}
+  /@contentlayer/core/0.2.6:
+    resolution: {integrity: sha512-HStutEpmVdRCBZPa/KgnuZYoLCyP2hT+C8KVMGUlehU35Y4FsgyaCHyiCY8LB2Ezr3rv2tSbwUug3SWj9RNgYg==}
     peerDependencies:
       markdown-wasm: 1.x
     peerDependenciesMeta:
@@ -2174,7 +2155,7 @@ packages:
       markdown-wasm:
         optional: true
     dependencies:
-      '@contentlayer/utils': 0.2.5
+      '@contentlayer/utils': 0.2.6
       camel-case: 4.1.2
       comment-json: 4.2.2
       date-fns: 2.28.0
@@ -2193,16 +2174,14 @@ packages:
       - supports-color
     dev: false
 
-  /@contentlayer/source-files/0.2.5_date-fns@2.28.0:
-    resolution: {integrity: sha512-FUe/bWL1c5rsh+tFvLdcHNKwdp8EVLx+kz44kNHOwNsykdljXHs7cY3swmn1vHB+hvf1/1sXS/iojPhoVlvDTw==}
-    peerDependencies:
-      date-fns: 2.x
+  /@contentlayer/source-files/0.2.6:
+    resolution: {integrity: sha512-reTqrBJi2aclzF6OuMyxvQfz25J4T7ho9YWFoVIdPKvUoFcTWiUi9YA/IfxmV2h0NI4MfEfWqLiIy4BQASgK8g==}
     peerDependenciesMeta:
       date-fns:
         optional: true
     dependencies:
-      '@contentlayer/core': 0.2.5
-      '@contentlayer/utils': 0.2.5
+      '@contentlayer/core': 0.2.6
+      '@contentlayer/utils': 0.2.6
       chokidar: 3.5.3
       date-fns: 2.28.0
       date-fns-tz: 1.3.4_date-fns@2.28.0
@@ -2218,8 +2197,8 @@ packages:
       - supports-color
     dev: false
 
-  /@contentlayer/utils/0.2.5:
-    resolution: {integrity: sha512-JTIW/GoUUTJL+Uy6ZnZoeer7xdGIkwNtSqnYNYSkgZNqV88dK3nVTosM274mWKObbS1ZVsdzaR0/srM1QRueXg==}
+  /@contentlayer/utils/0.2.6:
+    resolution: {integrity: sha512-+KchRJOfmh9KfFq9PGBpa6gJvP9L1nkradTzn/DPJRGpyqWsU9zibIo/f7V+zYz/3FFXKosoZAg0wovBgKKt0A==}
     peerDependencies:
       '@effect-ts/otel-node': '*'
     peerDependenciesMeta:
@@ -2231,16 +2210,16 @@ packages:
         optional: true
     dependencies:
       '@effect-ts/core': 0.58.1
-      '@effect-ts/otel': 0.13.0_5z5c5vjeykv463ew7qsfmouyna
-      '@effect-ts/otel-exporter-trace-otlp-grpc': 0.13.0_gdbzzjxxaqrehez5va5habgydy
-      '@effect-ts/otel-sdk-trace-node': 0.13.0_hmfdj4lcbjhqug6wkmdbp4sf7i
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/exporter-trace-otlp-grpc': 0.27.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/resources': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-node': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/semantic-conventions': 1.3.0
+      '@effect-ts/otel': 0.13.0_352kdg4qbmo6ttznywgm56xt3y
+      '@effect-ts/otel-exporter-trace-otlp-grpc': 0.13.0_oz5lob2ldzojxghrjmznfsllna
+      '@effect-ts/otel-sdk-trace-node': 0.13.0_t2mpuh2snbwh73wydf5tce2hci
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/exporter-trace-otlp-grpc': 0.27.0_@opentelemetry+api@1.0.4
+      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-node': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/semantic-conventions': 1.0.1
       chokidar: 3.5.3
       hash-wasm: 4.9.0
       inflection: 1.13.2
@@ -2260,7 +2239,7 @@ packages:
       '@effect-ts/system': 0.55.1
     dev: false
 
-  /@effect-ts/otel-exporter-trace-otlp-grpc/0.13.0_gdbzzjxxaqrehez5va5habgydy:
+  /@effect-ts/otel-exporter-trace-otlp-grpc/0.13.0_oz5lob2ldzojxghrjmznfsllna:
     resolution: {integrity: sha512-SIyRO+2Kvd4F6dKe8ztEUsqCxrKlnArWHyGELfruA9vB/BGdmbVaSFlUzLBHTuobXIgIFsCVaFmfUtwXTsHLMg==}
     peerDependencies:
       '@effect-ts/core': ^0.58.0
@@ -2270,14 +2249,14 @@ packages:
       '@opentelemetry/sdk-trace-base': ^1.0.0
     dependencies:
       '@effect-ts/core': 0.58.1
-      '@effect-ts/otel': 0.13.0_5z5c5vjeykv463ew7qsfmouyna
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/exporter-trace-otlp-grpc': 0.27.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.3.0_@opentelemetry+api@1.1.0
+      '@effect-ts/otel': 0.13.0_352kdg4qbmo6ttznywgm56xt3y
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/exporter-trace-otlp-grpc': 0.27.0_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@effect-ts/otel-sdk-trace-node/0.13.0_hmfdj4lcbjhqug6wkmdbp4sf7i:
+  /@effect-ts/otel-sdk-trace-node/0.13.0_t2mpuh2snbwh73wydf5tce2hci:
     resolution: {integrity: sha512-sdKZ6TJZuxkbkigIUwKK7mgNVJEl+9RkRYCAF9NLz3xbGEGHiIuK3IePy9/nawjfkV2bKSCZ6QRb9TgVg12yRA==}
     peerDependencies:
       '@effect-ts/core': ^0.58.0
@@ -2287,14 +2266,14 @@ packages:
       '@opentelemetry/sdk-trace-node': ^1.0.0
     dependencies:
       '@effect-ts/core': 0.58.1
-      '@effect-ts/otel': 0.13.0_5z5c5vjeykv463ew7qsfmouyna
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-node': 1.3.0_@opentelemetry+api@1.1.0
+      '@effect-ts/otel': 0.13.0_352kdg4qbmo6ttznywgm56xt3y
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-node': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@effect-ts/otel/0.13.0_5z5c5vjeykv463ew7qsfmouyna:
+  /@effect-ts/otel/0.13.0_352kdg4qbmo6ttznywgm56xt3y:
     resolution: {integrity: sha512-AR9l1Zj2eF1uv89Rpu0ePlW5l6qFNeBfmOsih7Yoi517g8dfURAXvgWVi67DmwqDQThz3xVuGd1evOcBqXCdsQ==}
     peerDependencies:
       '@effect-ts/core': ^0.58.0
@@ -2303,9 +2282,9 @@ packages:
       '@opentelemetry/sdk-trace-base': ^1.0.1
     dependencies:
       '@effect-ts/core': 0.58.1
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.3.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
   /@effect-ts/system/0.55.1:
@@ -2717,41 +2696,31 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@opentelemetry/api/1.1.0:
-    resolution: {integrity: sha512-hf+3bwuBwtXsugA2ULBc95qxrOqP2pOekLz34BJhcAKawt94vfeNyUKpYc0lZQ/3sCP6LqRa7UAdHA7i5UODzQ==}
+  /@opentelemetry/api/1.0.4:
+    resolution: {integrity: sha512-BuJuXRSJNQ3QoKA6GWWDyuLpOUck+9hAXNMCnrloc1aWVoy6Xq6t9PUV08aBZ4Lutqq2LEHM486bpZqoViScog==}
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /@opentelemetry/context-async-hooks/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-jg2c+fZ5nVvyrcUy6lbLI5gCda+ThOQGni+wxy0BAouUBt8b+BvbUjZag6rPQkS09k3B7U4kb/4DPe3Y/Lcq8A==}
-    engines: {node: '>=8.12.0'}
+  /@opentelemetry/context-async-hooks/1.0.1_@opentelemetry+api@1.0.4:
+    resolution: {integrity: sha512-oGCPjDlZ03gXPAdLxw5iqaQJIpL8BZFaiZhAPgF7Vj6XYmrmrA/FXVIsjfNECQTa2D+lt5p8vf0xYIkFufgceQ==}
+    engines: {node: '>=8.1.0'}
     peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
+      '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
+      '@opentelemetry/api': 1.0.4
     dev: false
 
-  /@opentelemetry/core/1.0.1_@opentelemetry+api@1.1.0:
+  /@opentelemetry/core/1.0.1_@opentelemetry+api@1.0.4:
     resolution: {integrity: sha512-90nQ2X6b/8X+xjcLDBYKooAcOsIlwLRYm+1VsxcX5cHl6V4CSVmDpBreQSDH/A21SqROzapk6813008SatmPpQ==}
     engines: {node: '>=8.5.0'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
+      '@opentelemetry/api': 1.0.4
       '@opentelemetry/semantic-conventions': 1.0.1
     dev: false
 
-  /@opentelemetry/core/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-g/YNvUhSPn+9PBOnDZtFmvGZR3fDFzzLVSHLAnAQfOLrJwVlZovSZpAXNOv8OGhn+JA3j1gY93gfjbgBZtoR7Q==}
-    engines: {node: '>=8.12.0'}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
-    dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/semantic-conventions': 1.3.0
-    dev: false
-
-  /@opentelemetry/exporter-trace-otlp-grpc/0.27.0_@opentelemetry+api@1.1.0:
+  /@opentelemetry/exporter-trace-otlp-grpc/0.27.0_@opentelemetry+api@1.0.4:
     resolution: {integrity: sha512-fFoLoCv9beWRouuhLy8zqnHrPj+Bj89iUbUzcg80cQ4tP3AXKyjWBowk/xHteKsTFbQYkIBhIQOpekyHtExwRw==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -2759,114 +2728,86 @@ packages:
     dependencies:
       '@grpc/grpc-js': 1.6.7
       '@grpc/proto-loader': 0.6.12
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.1.0
-      '@opentelemetry/exporter-trace-otlp-http': 0.27.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/exporter-trace-otlp-http': 0.27.0_@opentelemetry+api@1.0.4
+      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@opentelemetry/exporter-trace-otlp-http/0.27.0_@opentelemetry+api@1.1.0:
+  /@opentelemetry/exporter-trace-otlp-http/0.27.0_@opentelemetry+api@1.0.4:
     resolution: {integrity: sha512-ZE8Ns/GGW83E4igrby69shiqEkVo+cULzbm4DprSEMCWrPAL/NBobETFOiOQyBBBgIfrhi5EG6truUiafB1cMQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.1.0
-      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@opentelemetry/propagator-b3/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-nVrnC3LUxC/vNh5M2haeNB0/PlGky/IrJN7rcTI8DAzyvhKGcKIKPcUNwYu8zfKkhcKfcslgmAp0LQmOvRyATw==}
-    engines: {node: '>=8.12.0'}
+  /@opentelemetry/propagator-b3/1.0.1_@opentelemetry+api@1.0.4:
+    resolution: {integrity: sha512-UQQiOpR/WXyoqIRQEkn6RuXtGfpjhBDMq/1HrVxRCRPMVn7f4e+zxZWoQSsCOvSGQTu9S+W8eAutm00sRJN7fg==}
+    engines: {node: '>=8.0.0'}
     peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
+      '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@opentelemetry/propagator-jaeger/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-x4Ww388XIS9JKCSPTsRSpZy2yhAeJa3ptohhJ7B59bOYlyn6dd2fLYhXQG4DDsIFnsBwhY4lTS5BkJJ8gHuyYg==}
-    engines: {node: '>=8.12.0'}
+  /@opentelemetry/propagator-jaeger/1.0.1_@opentelemetry+api@1.0.4:
+    resolution: {integrity: sha512-bzvXksBn3j0GyiFXQbx87CUSGC1UDyp4hjL+CCOrQfzIEdp6usKCLHv40Ib5WU6739hPMkyr59CPfKwzlviTtA==}
+    engines: {node: '>=8.5.0'}
     peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
+      '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
     dev: false
 
-  /@opentelemetry/resources/1.0.1_@opentelemetry+api@1.1.0:
+  /@opentelemetry/resources/1.0.1_@opentelemetry+api@1.0.4:
     resolution: {integrity: sha512-p8DevOaAEepPucUtImR4cZKHOE2L1jgQAtkdZporV+XnxPA/HqCHPEESyUVuo4f5M0NUlL6k5Pba75KwNJlTRg==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
       '@opentelemetry/semantic-conventions': 1.0.1
     dev: false
 
-  /@opentelemetry/resources/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-vSj4YIS8yHx8AEwYFV4l1mcCtDogSOhOymAMEg93LTWcnrhfz8hJ4Q7H21fVUKJx/6h+6cnfTYygzyqBjlilJw==}
-    engines: {node: '>=8.12.0'}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
-    dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/semantic-conventions': 1.3.0
-    dev: false
-
-  /@opentelemetry/sdk-trace-base/1.0.1_@opentelemetry+api@1.1.0:
+  /@opentelemetry/sdk-trace-base/1.0.1_@opentelemetry+api@1.0.4:
     resolution: {integrity: sha512-JVSAepTpW7dnqfV7XFN0zHj1jXGNd5OcvIGQl76buogqffdgJdgJWQNrOuUJaus56zrOtlzqFH+YtMA9RGEg8w==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.1.0
-      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/resources': 1.0.1_@opentelemetry+api@1.0.4
       '@opentelemetry/semantic-conventions': 1.0.1
     dev: false
 
-  /@opentelemetry/sdk-trace-base/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-BkJEVdx46Boumgy0u6v+pm7spjOq7wCmClDFnHvQs8BS3xjmfwdiReoJFcSjo0cSlxkTJh6el8Or2l2nE3kArw==}
-    engines: {node: '>=8.12.0'}
+  /@opentelemetry/sdk-trace-node/1.0.1_@opentelemetry+api@1.0.4:
+    resolution: {integrity: sha512-0ifT2pEI5aXy14zDDUQkl3ODzY6jjaC1plbxyAuz5BdPxGJzav9vzIJ2BhEwfXDn1LKqpQ5D1Yy+XnNRQpOo3w==}
+    engines: {node: '>=8.0.0'}
     peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
+      '@opentelemetry/api': '>=1.0.0 <1.1.0'
     dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/resources': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/semantic-conventions': 1.3.0
-    dev: false
-
-  /@opentelemetry/sdk-trace-node/1.3.0_@opentelemetry+api@1.1.0:
-    resolution: {integrity: sha512-HdHRyr7GRESYu1j1hNopZC1+zMAObJ2WCERG0jamybJJ+UWOf7PPEQBl0g6FWccH0R55qrDrJp8AHNqQY6+zIw==}
-    engines: {node: '>=8.12.0'}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.2.0'
-    dependencies:
-      '@opentelemetry/api': 1.1.0
-      '@opentelemetry/context-async-hooks': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/core': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/propagator-b3': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/propagator-jaeger': 1.3.0_@opentelemetry+api@1.1.0
-      '@opentelemetry/sdk-trace-base': 1.3.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/api': 1.0.4
+      '@opentelemetry/context-async-hooks': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/core': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/propagator-b3': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/propagator-jaeger': 1.0.1_@opentelemetry+api@1.0.4
+      '@opentelemetry/sdk-trace-base': 1.0.1_@opentelemetry+api@1.0.4
       semver: 7.3.7
     dev: false
 
   /@opentelemetry/semantic-conventions/1.0.1:
     resolution: {integrity: sha512-7XU1sfQ8uCVcXLxtAHA8r3qaLJ2oq7sKtEwzZhzuEXqYmjW+n+J4yM3kNo0HQo3Xp1eUe47UM6Wy6yuAvIyllg==}
     engines: {node: '>=8.0.0'}
-    dev: false
-
-  /@opentelemetry/semantic-conventions/1.3.0:
-    resolution: {integrity: sha512-7lmGpLL/7EHQcLVBxxOesgQQS7JSxzF/Xqx7VNMxAQbo14dzJEX6Ks0hb4LHqEMpCrKpErWXi4JxYCGrRJgx9A==}
-    engines: {node: '>=8.12.0'}
     dev: false
 
   /@popperjs/core/2.11.5:
@@ -2920,8 +2861,8 @@ packages:
     resolution: {integrity: sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==}
     dev: true
 
-  /@saas-ui/auth/1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4:
-    resolution: {integrity: sha512-0+byHh4XP46cWfkH6P520M3WlaPWrAAncqhDTXrCdqVg4nhFgft2iSDB0FdEn6GaMlxB3YfBj0/hvr0xNHgETQ==}
+  /@saas-ui/auth/1.1.1_kr4gdxgcg6ppz6ja6y3hphp2s4:
+    resolution: {integrity: sha512-GYprMZiHr1hmhnTAybiiH4AqAsmOKYGXBqg1dbQUFu/KUH5bDjGJTvlI9dHozAVDJUvKqsgkQaCQPOmR3vNHtg==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -2932,9 +2873,9 @@ packages:
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@chakra-ui/utils': 2.0.2
       '@saas-ui/button': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/forms': 1.0.2_ies43pchp6qybydnz46qgujvzy
-      '@saas-ui/hooks': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/layout': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/forms': 1.0.3_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/hooks': 1.0.1_fyh2home3ovcllsswrzj6w5lo4
+      '@saas-ui/layout': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
     dev: false
@@ -2993,8 +2934,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/data-table/1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4:
-    resolution: {integrity: sha512-H7jMXnBmUO9DGMHteMv1OLa4/A++k+mhyvD4X4V7K/E0Rjt3Do+kr1SRUge3MUbusAQuTwtw8Y6fuejlRhnU7w==}
+  /@saas-ui/data-table/1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4:
+    resolution: {integrity: sha512-+0vZxd3OH53QOAmgESB0KsRoKx3XDMxXXXCyrl+O6eSIs3zzETjMfdYEca/afLr31SqRtXhF8Y0OVK4PpTFvyA==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3005,14 +2946,14 @@ packages:
       '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@chakra-ui/utils': 2.0.2
-      '@saas-ui/layout': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/layout': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
       react-table: 7.8.0_react@18.1.0
     dev: false
 
-  /@saas-ui/forms/1.0.2_ies43pchp6qybydnz46qgujvzy:
-    resolution: {integrity: sha512-XZMPzJONx/zyWEX3gQPVzBqSOUxMZ3NeqLeQSL6rBti6QNaxdSbPqL0kQO/kId5BG0pyxJCwhvnvrzkfWqUt2A==}
+  /@saas-ui/forms/1.0.3_ies43pchp6qybydnz46qgujvzy:
+    resolution: {integrity: sha512-KJ/RqB1hs7t7PCz8fQRp7ZoDPOeyxf+f8bRgv/cNicUddq7WI9ParD2EypYB3g79za2NITrzRCIzkk7TWdQ7Hw==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3027,7 +2968,7 @@ packages:
       '@saas-ui/button': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
       '@saas-ui/input-right-button': 1.0.1_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/number-input': 1.0.0_2y42d54diejddumbhxqsbn3ave
-      '@saas-ui/password-input': 1.0.1_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/password-input': 1.0.2_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/pin-input': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/radio': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/react-utils': 1.0.0_react@18.1.0
@@ -3037,8 +2978,8 @@ packages:
       react-hook-form: 7.33.1_react@18.1.0
     dev: false
 
-  /@saas-ui/hooks/1.0.0_fyh2home3ovcllsswrzj6w5lo4:
-    resolution: {integrity: sha512-39eme7fxuI5wRr+69UR5sDQCaUDX2Ev8S8pabKS9ZolOCQ9xEJ5Qp7eZVTKJvwOz6qEXCgTLgtEjhsxORTj70g==}
+  /@saas-ui/hooks/1.0.1_fyh2home3ovcllsswrzj6w5lo4:
+    resolution: {integrity: sha512-/wgdZ+swB/U0k1lRmgnbhS11Wq7/PURUGq/YlWchpUycKo7FacQmgGfgGDKu8YhKlIIePhVVwdQhNZIgaw6c9Q==}
     peerDependencies:
       '@chakra-ui/system': '>=2.1.0'
       react: '>=18.0.0'
@@ -3047,14 +2988,13 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/hotkeys/1.0.0_ies43pchp6qybydnz46qgujvzy:
-    resolution: {integrity: sha512-U3zisEcXo66W4EUGsOBjjIV3EFznZ6W88QyW0Zpfz4kj4s+HFbhujmljyYIpu6JL4FAMH+IisNoLqIMVHsbgaA==}
+  /@saas-ui/hotkeys/1.0.1_ies43pchp6qybydnz46qgujvzy:
+    resolution: {integrity: sha512-qxCLLPtIWsDnEf9ar2qSB0E3OQkQYmNxihe19Y8idIpDz20Mj9+tnuKDINdFQxMCZosNlj5+9Y7d/csySWRz+Q==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
       react: '>=18.0.0'
     dependencies:
-      '@chakra-ui/layout': 2.0.3_fyh2home3ovcllsswrzj6w5lo4
       '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
       '@chakra-ui/react-utils': 2.0.1_react@18.1.0
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
@@ -3077,8 +3017,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/layout/1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4:
-    resolution: {integrity: sha512-7zv/HRCJrxW651YumvpEpoZMUpEphPzXdMRbOfRhPtwp2QsqluedmJiVNldIPIPdKTTJZlmqbwZLfPcIkKHc/g==}
+  /@saas-ui/layout/1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4:
+    resolution: {integrity: sha512-YBXA6/Jxtuumt4CKDAprjjBomWVhZDglNh36bU3lUV3SUFX/vkeOuCOnlyBhPKprChKFNzMN/tQUj0jbSfdUOw==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3088,7 +3028,7 @@ packages:
       '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@chakra-ui/utils': 2.0.2
-      '@saas-ui/provider': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/provider': 1.0.2_ies43pchp6qybydnz46qgujvzy
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
     dev: false
@@ -3106,8 +3046,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/menu/1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4:
-    resolution: {integrity: sha512-Ias8YLRAiUw9uhJkPKc/zl9SPfgsz5kWp9MsRh3a/4274cTPZ4E7fpaCuB+wCp2KAg6fL6PBopBFoLt+q3N/ew==}
+  /@saas-ui/menu/1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4:
+    resolution: {integrity: sha512-4D7mPMKbWVSDIPSMFIpv6Bw46/jpQFkhwZuBmFhog9/1XoBmWvG1AXZsecL57g1NM91gqdAlUSoZFZcTOdky3w==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3119,13 +3059,13 @@ packages:
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@chakra-ui/utils': 2.0.2
       '@saas-ui/button': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/provider': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/provider': 1.0.2_ies43pchp6qybydnz46qgujvzy
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
     dev: false
 
-  /@saas-ui/modals/1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4:
-    resolution: {integrity: sha512-a+GDXgU5p50ZpdncQFzuLkdFIPBNQQrF5GvDvHgAMmYIswuGf7gEmFOyl1tYO49Z0P3rIxJOUvUuGs1IwCC/IQ==}
+  /@saas-ui/modals/1.0.5_kr4gdxgcg6ppz6ja6y3hphp2s4:
+    resolution: {integrity: sha512-/gVkE5XYS3TiseAYFCLvda4ByPH+6jFFG9tCFizLWYsXwvnsEDaXIp4KaGjBQ4+Re977emJv+loLhxU2ATDUPw==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3135,8 +3075,8 @@ packages:
       '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@saas-ui/button': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/forms': 1.0.2_ies43pchp6qybydnz46qgujvzy
-      '@saas-ui/menu': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/forms': 1.0.3_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/menu': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
     dev: false
@@ -3175,8 +3115,8 @@ packages:
       chroma-js: 2.4.2
     dev: false
 
-  /@saas-ui/password-input/1.0.1_ies43pchp6qybydnz46qgujvzy:
-    resolution: {integrity: sha512-SG9XS+fr0QQDQ1fmnjbjAY0G9btb72jjLd7cpVUYbXlg9OYgSXxVkev6wz5Ki+vOIuXKH4U3frdTfWE4syuUOw==}
+  /@saas-ui/password-input/1.0.2_ies43pchp6qybydnz46qgujvzy:
+    resolution: {integrity: sha512-zWp+GOS8UTQO+3G2GI/j5bsfBUcmszShBOaQVu/qduB0IkLaxmtTM+ugILDB6Nmby4xTuy+1zr9VC5X4jMxEzw==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3224,8 +3164,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/provider/1.0.0_ies43pchp6qybydnz46qgujvzy:
-    resolution: {integrity: sha512-liB65Ahazcg4KAZzDGPz1OeS+ZwSxbzbUlS/bQcj0GZ194X5CZJkHDquWMK9Rc18+E47TtVzAhfvpjOrJ2ETyA==}
+  /@saas-ui/provider/1.0.2_ies43pchp6qybydnz46qgujvzy:
+    resolution: {integrity: sha512-HYBrKgDkS6U9Vz370zfHnxa5wCjdF/mv3RY1SSMy03AJ9USB+++omSn6mJGnd46nITYlXm8s6REMaqbBd1ilKw==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -3233,7 +3173,7 @@ packages:
     dependencies:
       '@chakra-ui/react': 2.2.1_wsj3olggp2g3x3n2yisffacf64
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
-      '@saas-ui/theme': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/theme': 1.1.0_ies43pchp6qybydnz46qgujvzy
       react: 18.1.0
     dev: false
 
@@ -3256,8 +3196,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/react/1.0.2_z24omdafoq6uotecxn4xqughgy:
-    resolution: {integrity: sha512-AW5V5oDDcVKECE1hwqZhNL80AXkFp78g+LrGIQu6Rd/NgV1gcjJorElxibK4WRlWQ+alimEGgriZND8PXmZApQ==}
+  /@saas-ui/react/1.2.1_z24omdafoq6uotecxn4xqughgy:
+    resolution: {integrity: sha512-SyIpzFLvw6jnyRvVYC59QzXlWBWozVREGX/UmGp/63fHlHEqnRW75DQxyKf0Pe8Ce5Q7XLOhwNPJvJRWizQbVA==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@emotion/react': ^11
@@ -3270,34 +3210,34 @@ packages:
       '@chakra-ui/system': 2.1.3_t4r7icl7x3elshpaxc4xm7jrem
       '@emotion/react': 11.9.0_t32v4ktcynrgeobeattnfg3v6m
       '@emotion/styled': 11.8.1_iay6a7nbb2nsf7nl3gr24qbc2a
-      '@saas-ui/auth': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/auth': 1.1.1_kr4gdxgcg6ppz6ja6y3hphp2s4
       '@saas-ui/banner': 1.0.1_d3ujdwgte33jwqcs7neo2uym2q
       '@saas-ui/button': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
       '@saas-ui/card': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
       '@saas-ui/collapse': 1.0.0_2y42d54diejddumbhxqsbn3ave
-      '@saas-ui/data-table': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
-      '@saas-ui/forms': 1.0.2_ies43pchp6qybydnz46qgujvzy
-      '@saas-ui/hooks': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/hotkeys': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/data-table': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/forms': 1.0.3_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/hooks': 1.0.1_fyh2home3ovcllsswrzj6w5lo4
+      '@saas-ui/hotkeys': 1.0.1_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/input-right-button': 1.0.1_ies43pchp6qybydnz46qgujvzy
-      '@saas-ui/layout': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/layout': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
       '@saas-ui/list': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/menu': 1.0.0_kr4gdxgcg6ppz6ja6y3hphp2s4
-      '@saas-ui/modals': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/menu': 1.0.2_kr4gdxgcg6ppz6ja6y3hphp2s4
+      '@saas-ui/modals': 1.0.5_kr4gdxgcg6ppz6ja6y3hphp2s4
       '@saas-ui/nprogress': 1.0.0_5ajfy5omk3z3l6h2inigwunxa4
       '@saas-ui/number-input': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/palette': 1.0.0_@chakra-ui+react@2.2.1
-      '@saas-ui/password-input': 1.0.1_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/password-input': 1.0.2_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/persona': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/pin-input': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/property': 1.0.0_fyh2home3ovcllsswrzj6w5lo4
-      '@saas-ui/provider': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/provider': 1.0.2_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/radio': 1.0.0_2y42d54diejddumbhxqsbn3ave
       '@saas-ui/search-input': 1.0.0_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/select': 1.0.0_ies43pchp6qybydnz46qgujvzy
       '@saas-ui/snackbar': 1.0.0_noune5pgcewtlqymdozww2al6u
       '@saas-ui/stepper': 1.0.0_ies43pchp6qybydnz46qgujvzy
-      '@saas-ui/theme': 1.0.0_ies43pchp6qybydnz46qgujvzy
+      '@saas-ui/theme': 1.1.0_ies43pchp6qybydnz46qgujvzy
       framer-motion: 6.3.6_ef5jwxihqo6n7gxfmzogljlgcm
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
@@ -3364,8 +3304,8 @@ packages:
       react: 18.1.0
     dev: false
 
-  /@saas-ui/theme/1.0.0_ies43pchp6qybydnz46qgujvzy:
-    resolution: {integrity: sha512-pM6ZcapuqqbZAUIrEKGmcqd7twJ2oFRO8UwydrxKsLs7vY/SPvSq2zzIkaDg6ImamZU1hI5U4pxglShlLmor9g==}
+  /@saas-ui/theme/1.1.0_ies43pchp6qybydnz46qgujvzy:
+    resolution: {integrity: sha512-A7YxXdU5ZAH5HWQFdJ8mOnl0SlDHTWFpqQQgS+RMRzJ+fYpmH+fTtu3aCWCepLu9nDg3enXHGe55lhe/xcZgkA==}
     peerDependencies:
       '@chakra-ui/react': '>=2.1.0'
       '@chakra-ui/system': '>=2.1.0'
@@ -4075,20 +4015,19 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /contentlayer/0.2.5_date-fns@2.28.0:
-    resolution: {integrity: sha512-3uG4ZLlCd0iKuD1Z49AGj9CA26N4BpOIBiqPdXIgGI5euEd00+EL03Lsbq1CdPiWnWN9jr6gSvhYFR/qL94ICg==}
+  /contentlayer/0.2.6:
+    resolution: {integrity: sha512-nBvUipLxD5HLG++17/Tluz7In42VLiRTZCpRkLa2zsOVmu9v5t2AsiOTERRete+k4P7uaqbRs+mSI3zy/OHLiw==}
     engines: {node: '>=14.18'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@contentlayer/cli': 0.2.5
-      '@contentlayer/client': 0.2.5
-      '@contentlayer/core': 0.2.5
-      '@contentlayer/source-files': 0.2.5_date-fns@2.28.0
-      '@contentlayer/utils': 0.2.5
+      '@contentlayer/cli': 0.2.6
+      '@contentlayer/client': 0.2.6
+      '@contentlayer/core': 0.2.6
+      '@contentlayer/source-files': 0.2.6
+      '@contentlayer/utils': 0.2.6
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
-      - date-fns
       - markdown-wasm
       - supports-color
     dev: false
@@ -6112,15 +6051,15 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-contentlayer/0.2.5_2mgcgz5qhsdxw4fgpqzqeafmkq:
-    resolution: {integrity: sha512-5Gbj41x2W/F+nSOqLffgI7wo9LNWbgEyQAtpx4NHEoHAEJykCSZOBHZ0U/xono1mNai4bzd1fgrEuomYCmKICw==}
+  /next-contentlayer/0.2.6_2mgcgz5qhsdxw4fgpqzqeafmkq:
+    resolution: {integrity: sha512-4k1mkW7P0vpvJ/XngJH23ZJAupKrhIS44y8eoGRQF8mEX+G+IhLlI7T95BsxB8U6I8JYOA2L6m8yxol4P6CCLQ==}
     peerDependencies:
       next: ^12
       react: '*'
       react-dom: '*'
     dependencies:
-      '@contentlayer/core': 0.2.5
-      '@contentlayer/utils': 0.2.5
+      '@contentlayer/core': 0.2.6
+      '@contentlayer/utils': 0.2.6
       next: 12.1.6_6j5eyi3us3liopewjenwniphpy
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
@@ -6836,7 +6775,7 @@ packages:
     dev: false
 
   /sprintf-js/1.0.3:
-    resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
   /stable/0.1.8:
@@ -6895,7 +6834,7 @@ packages:
       ansi-regex: 5.0.1
 
   /strip-bom-string/1.0.0:
-    resolution: {integrity: sha1-5SEekiQ2n7uB1jOi8ABE3IztrZI=}
+    resolution: {integrity: sha512-uCC2VHvQRYu+lMh4My/sFNmF2klFymLX1wHJeXnbEJERpV/ZsVuonzerjfrGpIGF7LBVa1O7i9kjiWvJiFck8g==}
     engines: {node: '>=0.10.0'}
     dev: false
 
