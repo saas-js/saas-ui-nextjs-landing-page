@@ -28,12 +28,12 @@ Feel free to submit any feature requests. If you use this template please share 
 
 ## Getting Started
 
-First, run the development server:
+First, clone this repo and run `pnpm i`
+
+To start the app run:
 
 ```bash
-npm run dev
-# or
-yarn dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
