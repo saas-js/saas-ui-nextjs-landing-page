@@ -37,7 +37,7 @@ export const AnnouncementBanner: React.FC<AnnouncementBannerProps> = (
   return (
     <Flex position="absolute" top="100px" width="100%">
       <Container maxW="container.2xl" px="8">
-        <NextLink href={href}>
+        <NextLink href={href} legacyBehavior>
           <Banner
             as={LinkBox}
             display="flex"

@@ -31,6 +31,7 @@ export interface PricingProps extends SectionProps {
 
 export const Pricing: React.FC<PricingProps> = (props) => {
   const { children, plans, title, description, ...rest } = props
+
   return (
     <Section id="pricing" pos="relative" {...rest}>
       <BackgroundGradient height="100%" />
