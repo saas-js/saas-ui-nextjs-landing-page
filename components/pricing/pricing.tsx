@@ -7,30 +7,33 @@ import {
   StackProps,
   Text,
   VStack,
-} from '@chakra-ui/react'
-import { ButtonLink, ButtonLinkProps } from 'components/button-link/button-link'
-import { BackgroundGradient } from 'components/gradients/background-gradient'
-import { Section, SectionProps, SectionTitle } from 'components/section'
-import React from 'react'
-import { FiCheck } from 'react-icons/fi'
+} from "@chakra-ui/react";
+import {
+  ButtonLink,
+  ButtonLinkProps,
+} from "components/button-link/button-link";
+import { BackgroundGradient } from "components/gradients/background-gradient";
+import { Section, SectionProps, SectionTitle } from "components/section";
+import React from "react";
+import { FiCheck } from "react-icons/fi";
 
 export interface PricingPlan {
-  id: string
-  title: React.ReactNode
-  description: React.ReactNode
-  price: React.ReactNode
-  features: Array<PricingFeatureProps | null>
-  action: ButtonLinkProps & { label?: string }
-  isRecommended?: boolean
+  id: string;
+  title: React.ReactNode;
+  description: React.ReactNode;
+  price: React.ReactNode;
+  features: Array<PricingFeatureProps | null>;
+  action: ButtonLinkProps & { label?: string };
+  isRecommended?: boolean;
 }
 
 export interface PricingProps extends SectionProps {
-  description: React.ReactNode
-  plans: Array<PricingPlan>
+  description: React.ReactNode;
+  plans: Array<PricingPlan>;
 }
 
 export const Pricing: React.FC<PricingProps> = (props) => {
-  const { children, plans, title, description, ...rest } = props
+  const { children, plans, title, description, ...rest } = props;
 
   return (
     <Section id="pricing" pos="relative" {...rest}>
@@ -48,10 +51,10 @@ export const Pricing: React.FC<PricingProps> = (props) => {
               sx={
                 plan.isRecommended
                   ? {
-                      borderColor: 'primary.500',
+                      borderColor: "primary.500",
                       _dark: {
-                        borderColor: 'primary.500',
-                        bg: 'blackAlpha.300',
+                        borderColor: "primary.500",
+                        bg: "blackAlpha.300",
                       },
                     }
                   : {}
@@ -59,11 +62,15 @@ export const Pricing: React.FC<PricingProps> = (props) => {
             >
               <PricingFeatures>
                 {plan.features.map((feature, i) =>
-                  feature ? <PricingFeature key={i} {...feature} /> : <br />
+                  feature ? (
+                    <PricingFeature key={i} {...feature} />
+                  ) : (
+                    <br key={i} />
+                  )
                 )}
               </PricingFeatures>
               <ButtonLink colorScheme="primary" {...plan.action}>
-                {plan.action.label || 'Sign Up'}
+                {plan.action.label || "Sign Up"}
               </ButtonLink>
             </PricingBox>
           ))}
@@ -72,8 +79,8 @@ export const Pricing: React.FC<PricingProps> = (props) => {
         {children}
       </Box>
     </Section>
-  )
-}
+  );
+};
 
 const PricingFeatures: React.FC<React.PropsWithChildren<{}>> = ({
   children,
@@ -88,16 +95,16 @@ const PricingFeatures: React.FC<React.PropsWithChildren<{}>> = ({
     >
       {children}
     </VStack>
-  )
-}
+  );
+};
 
 export interface PricingFeatureProps {
-  title: React.ReactNode
-  iconColor?: string
+  title: React.ReactNode;
+  iconColor?: string;
 }
 
 const PricingFeature: React.FC<PricingFeatureProps> = (props) => {
-  const { title, iconColor = 'primary.500' } = props
+  const { title, iconColor = "primary.500" } = props;
   return (
     <HStack>
       <Icon as={FiCheck} color={iconColor} />
@@ -105,17 +112,17 @@ const PricingFeature: React.FC<PricingFeatureProps> = (props) => {
         {title}
       </Text>
     </HStack>
-  )
-}
+  );
+};
 
-export interface PricingBoxProps extends Omit<StackProps, 'title'> {
-  title: React.ReactNode
-  description: React.ReactNode
-  price: React.ReactNode
+export interface PricingBoxProps extends Omit<StackProps, "title"> {
+  title: React.ReactNode;
+  description: React.ReactNode;
+  price: React.ReactNode;
 }
 
 const PricingBox: React.FC<PricingBoxProps> = (props) => {
-  const { title, description, price, children, ...rest } = props
+  const { title, description, price, children, ...rest } = props;
   return (
     <VStack
       zIndex="2"
@@ -127,8 +134,8 @@ const PricingBox: React.FC<PricingBoxProps> = (props) => {
       border="1px solid"
       borderColor="gray.400"
       _dark={{
-        bg: 'blackAlpha.300',
-        borderColor: 'gray.800',
+        bg: "blackAlpha.300",
+        borderColor: "gray.800",
       }}
       {...rest}
     >
@@ -143,5 +150,5 @@ const PricingBox: React.FC<PricingBoxProps> = (props) => {
         {children}
       </VStack>
     </VStack>
-  )
-}
+  );
+};

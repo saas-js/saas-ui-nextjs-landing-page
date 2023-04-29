@@ -1,12 +1,13 @@
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
 
-import { AuthProvider, SaasProvider } from '@saas-ui/react'
-import { Layout } from 'components/layout'
+import { AuthProvider } from "@saas-ui/auth";
+import { SaasProvider } from "@saas-ui/react";
+import { Layout } from "components/layout";
 
-import theme from '../theme'
+import theme from "../theme";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const { announcement, header, footer } = pageProps
+  const { announcement, header, footer } = pageProps;
 
   return (
     <SaasProvider theme={theme}>
@@ -20,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Layout>
       </AuthProvider>
     </SaasProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
