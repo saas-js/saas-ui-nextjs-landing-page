@@ -1,5 +1,6 @@
 import { Center } from '@chakra-ui/react'
-import { Auth, Link } from '@saas-ui/react'
+import { Auth } from '@saas-ui/auth'
+import { Link } from '@saas-ui/react'
 import { BackgroundGradient } from 'components/gradients/background-gradient'
 import { PageTransition } from 'components/motion/page-transition'
 import { Section } from 'components/section'

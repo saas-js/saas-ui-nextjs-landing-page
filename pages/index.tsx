@@ -88,7 +88,7 @@ const Home: NextPage = () => {
 const HeroSection: React.FC = () => {
   return (
     <Box position="relative" overflow="hidden">
-      <BackgroundGradient height="100%" />
+      <BackgroundGradient height="100%" zIndex="-1" />
       <Container maxW="container.xl" pt={{ base: 40, lg: 60 }} pb="40">
         <Stack direction={{ base: "column", lg: "row" }} alignItems="center">
           <Hero
