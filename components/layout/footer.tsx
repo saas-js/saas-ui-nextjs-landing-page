@@ -1,17 +1,16 @@
 import {
   Box,
   BoxProps,
-  SimpleGrid,
   Container,
-  Text,
-  Stack,
   Flex,
   HStack,
+  SimpleGrid,
+  Stack,
+  Text,
 } from '@chakra-ui/react'
-
 import { Link, LinkProps } from '@saas-ui/react'
 
-import siteConfig from 'data/config'
+import siteConfig from '#data/config'
 
 export interface FooterProps extends BoxProps {
   columns?: number

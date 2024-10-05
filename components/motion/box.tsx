@@ -1,8 +1,11 @@
-import { chakra, ChakraProps, HTMLChakraProps } from '@chakra-ui/react'
-import { motion, HTMLMotionProps } from 'framer-motion'
+import { ChakraProps, chakra } from '@chakra-ui/react'
+import { HTMLMotionProps, motion } from 'framer-motion'
 
 export interface MotionBoxProps
-  extends HTMLMotionProps<'div'>,
-    Omit<ChakraProps, 'transition' | 'color'> {}
+  extends Omit<HTMLMotionProps<'div'>, 'children' | 'style'>,
+    Omit<ChakraProps, 'transition' | 'color'> {
+  children?: React.ReactNode
+}
 
-export const MotionBox = motion(chakra.div)
+/* @ts-expect-error */
+export const MotionBox = motion.create(chakra.div)

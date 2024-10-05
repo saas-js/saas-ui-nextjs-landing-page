@@ -1,13 +1,14 @@
-import * as React from 'react'
 import { Box, Flex, Heading, VisuallyHidden } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
+
+import * as React from 'react'
+
+import siteConfig from '#data/config'
 
 export interface LogoProps {
   href?: string
   onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void
 }
-
-import siteConfig from 'data/config'
 
 export const Logo = ({ href = '/', onClick }: LogoProps) => {
   let logo

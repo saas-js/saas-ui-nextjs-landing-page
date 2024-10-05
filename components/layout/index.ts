@@ -1,1 +1,1 @@
-export * from './layout'
+export { MarketingLayout } from './marketing-layout'

@@ -17,17 +17,17 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"],
-      "data/*": ["./data/*"],
-      "components/*": ["./components/*"],
-      "hooks/*": ["./hooks/*"]
-    }
+      "#components/*": ["./components/*"],
+      "#hooks/*": ["./hooks/*"],
+      "#data/*": ["./data/*"],
+      "#theme": ["./theme"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".contentlayer/generated"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

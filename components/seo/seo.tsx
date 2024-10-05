@@ -1,6 +1,8 @@
-import React from 'react'
 import { NextSeo, NextSeoProps } from 'next-seo'
-import siteConfig from 'data/config'
+
+import React from 'react'
+
+import siteConfig from '#data/config'
 
 export interface SEOProps extends NextSeoProps {}
 

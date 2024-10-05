@@ -1,8 +1,9 @@
-import { MotionBox, MotionBoxProps } from './box'
 import React from 'react'
 
+import { MotionBox, MotionBoxProps } from './box'
+
 export const FallInPlace: React.FC<MotionBoxProps & { delay?: number }> = (
-  props
+  props,
 ) => {
   const { children, delay = 0.2, ...rest } = props
   return (
