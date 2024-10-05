@@ -7,10 +7,9 @@ Feel free to submit any feature requests. If you use this template please share 
 
 ## Tech
 
-- Next.js
+- Next.js (App router)
 - Chakra UI
 - Saas UI
-- Contentlayer
 - Typescript
 
 ## Features
@@ -20,13 +19,6 @@ Feel free to submit any feature requests. If you use this template please share 
 - Pricing tables
 - Log in and Sign up pages
 - FAQ
-
-## In progress
-
-- [ ] Supabase Auth
-- [ ] Waitlist sign-up with GetRevue
-- [ ] Blog (Contentlayer)
-- [ ] Docs
 
 ## Getting Started
 
@@ -50,7 +42,7 @@ Configuration files to edit basic site information, add testimonials, faq and pr
 
 Find out more about Saas UI.
 
-- [Saas UI Documentation](https://saas-ui.dev/docs/introduction).
+- [Saas UI Documentation](https://saas-ui.dev/docs).
 
 To learn more about Next.js, take a look at the following resources:
 
